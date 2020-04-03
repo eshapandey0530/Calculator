@@ -1,0 +1,101 @@
+body{
+	background-color: white;
+}
+
+.container{
+	height:100%;
+	width:100%;
+	background-image:url("photo2.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#calc{
+	width:300px;
+	height:500px;
+	background-color:#E5E7E9;
+	position:relative;
+	margin: 0 auto;
+
+	top:95px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6),0 8px 20px 0 rgba(0,0,0,0.6);
+}
+
+.calc-screen{
+	height:120px;
+	width:300px;
+	font-size:20px;
+	background-color:#eaedef;
+	top:10px;
+	border-radius:5px;
+	text-align:right;
+}
+
+.row{
+	margin-left: 4px;
+	border-radius: 50%;
+}
+
+.operator, .number,.equal-sign, .ac, .percentage,.decimal, .del{
+	font-size:20px;
+	font-weight:bold;
+	font-family: "Open Sans", sans-serif;
+	width:72px;
+	height:72px;
+	margin: 0.5px;
+	float:left;
+	border-radius:50%;
+}
+
+
+/*#blank{
+	background-color:#E5E7E9;
+	border-color: #E5E7E9;
+}*/
+
+.operator{
+	background-color: #39C1DC ;  /*#F39C12*/
+}
+
+
+.row .operator{
+	border-radius: 50%;
+}
+
+#dot, #brackets{
+	background-color: white;
+}
+
+
+
+#history{
+	font-size:20px;
+	margin-top:10px;
+	text-align:right;
+	height:30px;
+	color:grey;
+	padding-top: 10px;
+}
+
+#output{
+	height:80px;
+	text-align:right;
+	font-size:40px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
